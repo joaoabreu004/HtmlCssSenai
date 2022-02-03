@@ -1,0 +1,18 @@
+/* FOOTER */ 
+
+footer{
+    text-align: center;
+    background: url(imagens/bg.jpg);
+    padding: 30px;
+
+}
+
+footer p{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pngbrasil{
+    padding-top: 1em;
+    width: 10%;
+}
