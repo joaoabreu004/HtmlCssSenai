@@ -36,6 +36,7 @@ header{
 .informacoes p{
     font-size: 15px;
     margin-top: 1em;
+    line-height: 1.3;
 }
 
 .informacoes strong{
@@ -60,8 +61,13 @@ header{
 
 .regioes li{
     padding-top: 5px;
+    text-decoration-line: none;
+}
+
+.regioes li a{
     text-decoration: none;
 }
+
 
 
 /* ============================ */
@@ -82,6 +88,10 @@ header{
 
 .informacoespt2 strong{
     font-weight: bold;
+}
+
+.informacoespt2 li{
+    padding-top: 5px;
 }
 
 /* ============================ */
@@ -145,7 +155,8 @@ header{
 
 footer{
     text-align: center;
-    background: url(imagens/verderodape.jpg);
+    /* background: url(imagens/verderodape.jpg); */
+    background: #e40505;
     padding: 30px;
 
 }
