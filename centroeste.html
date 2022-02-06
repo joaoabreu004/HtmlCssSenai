@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css"> 
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
     <title>CENTRO-OESTE</title>
 </head>
 <body>
-    <header>
-        <h1>REGIÃO CENTRO-OESTE</h1> 
-
-        <a href="index.html">voltar</a>
+    <header class="header-regioes">
+        <h1 class="titulo-main-regioes">BRASIL - REGIÃO CENTRO-OESTE</h1> 
+        <a href="index.html"><button class="botão">Voltar</button></a>
     </header>
     
     <main>
-        <img src="imagens/oeste.png" alt="" width="25%">
 
-        <section>
+        <section class="imgs-bloco">
+            <img src="imagens/oeste.png" alt="" class="imagens-regiao">
+        </section>
+        
+        <section class="first-text-regioes">
             <h2>Mais sobre: </h2>
 
-            <p>A Região Centro-Oeste é uma das cinco regiões do Brasil definidas pelo IBGE em 1969. É formada por três estados: 
-                Goiás, Mato Grosso e Mato Grosso do Sul,  mais o Distrito Federal, onde se localiza Brasília, a capital do país e 
-                a cidade mais populosa da região. 
+            <p class="first-paragraph-regioes">
+                A Região Centro-Oeste é uma das cinco regiões do Brasil definidas pelo IBGE em 1969.
+                É formada por três estados: Goiás, Mato Grosso e Mato Grosso do Sul, mais o Distrito Federal, 
+                onde se localiza Brasília, a capital do país e a cidade mais populosa da região.
             </p>
         </section>
 
-        <section>
-            <h2>Estados</h2>
+        <section class="estados-bloco">
+            <h2>Estados:</h2>
 
             <ul>
                 <li><strong>GOIÁS</strong> - GOIÂNIA(GO)</li>
@@ -36,11 +43,29 @@
                 <li><strong>*DISTRITO FEDERAL</strong> - BRASÍLIA(DF)</li>
             </ul>
         </section>
+
+        <section class="dados-bloco">
+            <h2>Dados gerais da região Centro-Oeste: </h2>
+
+            <p>Veja agora alguns dados estatísticos dessa região,
+             de acordo com o Instituto Brasileiro de Geografia e Estatística (IBGE). Esses dados são de 2019.
+            </p>
+
+            <ul>
+                <li><strong>Área territorial: </strong>aproximadamente, 1,6 milhão de km², o que resulta em 19% do território brasileiro.</li>
+                <li><strong>População: </strong>16.297.074 habitantes.</li>
+                <li><strong>Rendimento domiciliar per capita(em reais): </strong>1727,25.</li>
+                <li><strong>Densidade demográfica: </strong>11,98 habitantes por km².</li>
+                <li><strong>IDH: </strong> 0,753.</li>
+                <li><strong>PIB: </strong>R$ 632.890.000.000,00.</li>
+                <li><strong>Taxa de mortalidade infantil: </strong>14,8.</li>
+            </ul>
+        </section>
     </main>
 
     <footer>
-        <img  class="pngbrasil" src="imagens/fundorodape.png" alt="">
-        <p>Patría amada Brasil.</p>
+        <img  class="pngbrasil" src="imagens/G1.png" alt="">
+        <p>últimas notícias.</p>
     </footer>
     
 </body>
