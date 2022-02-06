@@ -1,3 +1,139 @@
+/* HEADER */
+
+header{
+    background-color: #b1afaf;
+    text-align: center;
+    height: 110px;
+}
+
+
+.titulo-principal{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+
+/* MAIN */
+
+
+.informacoes{
+    margin: 20px;
+}
+
+.informacoes h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.informacoes p{
+    font-size: 15px;
+    margin-top: 1em;
+}
+
+.informacoes strong{
+    font-weight: bold;
+}
+
+/* ============================ */
+
+
+.regioes{
+    margin: 20px;
+}
+
+.regioes h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.regioes ol{
+    margin-top: 1em;
+}
+
+.regioes li{
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+
+/* ============================ */
+
+.informacoespt2{
+    margin: 20px;
+}
+
+
+.informacoespt2 h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.informacoespt2 ul{
+    margin-top: 1em;
+}
+
+.informacoespt2 strong{
+    font-weight: bold;
+}
+
+/* ============================ */
+
+
+.imagens{
+    margin: 20px
+}
+
+.imagens h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* esse bloco se aplica em todos (global) */
+.imagens h3{
+    padding-top: 1em ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img{
+    padding-top: 1em ;
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    align-items: center; 
+}
+
+/* esse bloco se aplica em todos (global) */
+.imagens p{
+    margin: 20px;
+    text-align: left;
+    line-height: 1.5;
+} 
+
+.imagens p strong{
+    font-weight: bold;
+}
+
+/* esse bloco se aplica em todos (global) */
+.imagens h3{
+    padding-top: 3em ;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.containersp{
+    display: flex;
+    align-items: center; 
+    flex-direction: row-reverse;
+}
+
+
+
 /* FOOTER */ 
 
 footer{
