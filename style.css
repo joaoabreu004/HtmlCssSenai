@@ -57,6 +57,7 @@ header{
 
 .regioes ol{
     margin-top: 1em;
+    list-style-type: decimal;
 }
 
 .regioes li{
@@ -84,6 +85,7 @@ header{
 
 .informacoespt2 ul{
     margin-top: 1em;
+    list-style-type:square ;
 }
 
 .informacoespt2 strong{
