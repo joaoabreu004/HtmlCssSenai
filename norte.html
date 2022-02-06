@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css"> 
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
     <title>NORTE</title>
 </head>
 <body>
-    <header>
-        <h1>REGIÃO NORTE</h1> 
-
-        <a href="index.html">voltar</a>
+    <header class="header-regioes">
+        <h1 class="titulo-main-regioes">BRASIL - REGIÃO NORTE</h1> 
+        <a href="index.html"><button class="botão">Voltar</button></a>
     </header>
     
     <main>
-        <img src="imagens/norte.png" alt="" width="25%">
 
-        <section>
+        <section class="imgs-bloco">
+            <img src="imagens/norte.png" alt="" class="imagens-regiao">
+        </section>
+        
+        <section class="first-text-regioes">
             <h2>Mais sobre: </h2>
 
-            <p>
-                O norte do Brasil engloba os estados de Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins. A floresta tropical da Amazónia, célebre pela sua biodiversidade, 
-                abrange a maior parte da região. No estado do Amazonas, a cidade de Manaus encontra-se nas margens do Rio Negro e, 
-                por vários quilómetros, a água escura desse rio corre junto à água clara do rio Solimões, no denominado Encontro das Águas. Mais à frente, formam o rio Amazonas. 
+            <p class="first-paragraph-regioes">
+                O norte do Brasil engloba os estados de Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins. 
+                A floresta tropical da Amazónia, célebre pela sua biodiversidade, abrange a maior parte da região. 
+                No estado do Amazonas, a cidade de Manaus encontra-se nas margens do Rio Negro e, por vários quilómetros, 
+                a água escura desse rio corre junto à água clara do rio Solimões, no denominado Encontro das Águas. Mais à frente,
+                formam o rio Amazonas. 
             </p>
         </section>
 
-        <section>
-            <h2>Estados</h2>
+        <section class="estados-bloco">
+            <h2>Estados:</h2>
 
             <ul>
                 <li><strong>ACRE</strong> - RIO BRANCO(AC)</li>
@@ -42,11 +49,29 @@
             </ul>
         </section>
 
-        <footer>
-            <img  class="pngbrasil" src="imagens/fundorodape.png" alt="">
-            <p>Patría amada Brasil.</p>
-        </footer>
-        
+        <section class="dados-bloco">
+            <h2>Dados gerais da região Norte: </h2>
+
+            <p>Veja agora alguns dados estatísticos dessa região,
+             de acordo com o Instituto Brasileiro de Geografia e Estatística (IBGE). Esses dados são de 2019.
+            </p>
+
+            <ul>
+                <li><strong>Área territorial: </strong>3.853.575,6 km², o que resulta em, aproximadamente, 45% do território brasileiro.</li>
+                <li><strong>População: </strong>18.430.980 habitantes.</li>
+                <li><strong>Rendimento domiciliar per capita(em reais): </strong>950,00.</li>
+                <li><strong>Densidade demográfica: </strong>4,73 habitantes por km².</li>
+                <li><strong>IDH: </strong>0,68.</li>
+                <li><strong>PIB: </strong>R$ 201.511.748.000,00.</li>
+                <li><strong>Taxa de mortalidade infantil: </strong>20,97.</li>
+            </ul>
+        </section>
     </main>
+
+    <footer>
+        <img  class="pngbrasil" src="imagens/G1.png" alt="">
+        <p>últimas notícias.</p>
+    </footer>
+    
 </body>
 </html>
