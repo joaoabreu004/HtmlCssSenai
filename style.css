@@ -55,9 +55,8 @@ header{
     font-weight: bold;
 }
 
-.regioes ol{
-    margin-top: 1em;
-    list-style-type: decimal;
+.regioes ul{
+    margin-top: 1em; 
 }
 
 .regioes li{
