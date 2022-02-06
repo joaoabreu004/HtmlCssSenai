@@ -179,17 +179,6 @@ footer p{
     height: 110px;
 }
 
-.botao{
-    background: #ffffff;
-    border-radius: 6px;
-    padding: 15px;
-    cursor: pointer;
-    color: #ffffff;
-    border: none;
-    font-size: 16px;
-    margin: 15px;
-}
-
 .titulo-main-regioes{
     font-size: 35px;
     font-weight: bold;
