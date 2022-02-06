@@ -223,9 +223,10 @@ footer p{
     font-weight: bold;
 }
 
-.estados-bloco ul{
+.estados-bloco ol{
     font-size: 15px;
     margin-top: 15px;
+    list-style-type: decimal;
 }
 
 .estados-bloco li{
