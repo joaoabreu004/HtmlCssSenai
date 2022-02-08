@@ -174,11 +174,31 @@ footer p{
 
 /* =========REGIÕES======== */
 
+.containerb{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    text-decoration-line: none;
+}
+ 
+
+
 .header-regioes{
     background-color: #e40505;
     text-align: center;
     height: 110px;
 }
+
+.b{
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 12px;
+    
+} 
 
 .titulo-main-regioes{
     font-size: 35px;
